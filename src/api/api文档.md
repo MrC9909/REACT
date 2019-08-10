@@ -12,7 +12,7 @@
 	9). 根据分类ID获取分类
 	10). 获取商品分页列表
 	11). 根据name/desc搜索产品分页列表
-  12). 根据商品ID获取商品
+    12). 根据商品ID获取商品
 	13). 添加商品
 	14). 更新商品
 	15). 对商品进行上架/下架处理
@@ -26,7 +26,7 @@
 ## 1. 登陆
 
 ### 请求URL：
-	http://localhost:5000/login
+	http://localhost:5888/login
 
 ### 请求方式：
 	POST
@@ -60,7 +60,7 @@
 ## 2. 添加用户
 
 ### 请求URL：
-	http://localhost:5000/manage/user/add
+	http://localhost:5888/manage/user/add
 
 ### 请求方式：
 	POST
@@ -95,7 +95,7 @@
 
 ## 3. 更新用户
 ### 请求URL：
-	http://localhost:5000/manage/user/update
+	http://localhost:5888/manage/user/update
 
 ### 请求方式：
 	POST
@@ -131,7 +131,7 @@
     
 ## 4. 获取所有用户列表
 ### 请求URL：
-	http://localhost:5000/manage/user/list
+	http://localhost:5888/manage/user/list
 
 ### 请求方式：
 	GET
@@ -188,7 +188,7 @@
 
 ## 5. 删除用户
 ### 请求URL：
-	http://localhost:5000/manage/user/delete
+	http://localhost:5888/manage/user/delete
 
 ### 请求方式：
 	POST
@@ -205,7 +205,7 @@
 
 ## 6. 获取分类列表
 ### 请求URL：
-	http://localhost:5000/manage/category/list
+	http://localhost:5888/manage/category/list
 
 ### 请求方式：
 	GET
@@ -234,7 +234,7 @@
       
 ## 7. 添加分类
 ### 请求URL：
-    http://localhost:5000/manage/category/add
+    http://localhost:5888/manage/category/add
 
 ### 请求方式：
     POST
@@ -257,7 +257,7 @@
 
 ## 8. 更新品类名称
 ### 请求URL：
-    http://localhost:5000/manage/category/update
+    http://localhost:5888/manage/category/update
 
 ### 请求方式：
     POST
@@ -276,7 +276,7 @@
 
 ## 9. 根据分类ID获取分类
 ### 请求URL：
-    http://localhost:5000/manage/category/info
+    http://localhost:5888/manage/category/info
 
 ### 请求方式：
     GET
@@ -299,7 +299,7 @@
 
 ## 10. 获取商品分页列表
 ### 请求URL：
-    http://localhost:5000/manage/product/list
+    http://localhost:5888/manage/product/list
 
 ### 请求方式：
     GET
@@ -391,7 +391,7 @@
 
 ## 11. 根据Name/desc搜索产品分页列表
 ### 请求URL：
-    http://localhost:5000/manage/product/search?pageNum=1&pageSize=5&productName=T
+    http://localhost:5888/manage/product/search?pageNum=1&pageSize=5&productName=T
 
 ### 请求方式：
     GET
@@ -458,7 +458,7 @@
 
 ## 12. 根据商品ID获取商品
 ### 请求URL：
-    http://localhost:5000/manage/product/info
+    http://localhost:5888/manage/product/info
 
 ### 请求方式：
     GET
@@ -487,7 +487,7 @@
 
 ## 13. 添加商品
 ### 请求URL：
-    http://localhost:5000/manage/product/add
+    http://localhost:5888/manage/product/add
 
 ### 请求方式：
     POST
@@ -521,7 +521,7 @@
 
 ## 14. 更新商品
 ### 请求URL：
-    http://localhost:5000/manage/product/update
+    http://localhost:5888/manage/product/update
 
 ### 请求方式：
     POST
@@ -543,7 +543,7 @@
 
 ## 15. 对商品进行上架/下架处理
 ### 请求URL：
-    http://localhost:5000/manage/product/updateStatus
+    http://localhost:5888/manage/product/updateStatus
 
 ### 请求方式：
     POST
@@ -561,7 +561,7 @@
 
 ## 16. 上传图片
 ### 请求URL：
-    http://localhost:5000/manage/img/upload
+    http://localhost:5888/manage/img/upload
 
 ### 请求方式：
     POST
@@ -576,13 +576,13 @@
         "status": 0,
         "data": {
             "name": "image-1559466841118.jpg",
-            "url": "http://localhost:5000/upload/image-1559466841118.jpg"
+            "url": "http://localhost:5888/upload/image-1559466841118.jpg"
         }
     }
 
 ## 17. 删除图片
 ### 请求URL：
-    http://localhost:5000/manage/img/delete
+    http://localhost:5888/manage/img/delete
 
 ### 请求方式：
     POST
@@ -600,7 +600,7 @@
 ## 18. 添加角色
 
 ### 请求URL：
-    http://localhost:5000/manage/role/add
+    http://localhost:5888/manage/role/add
 
 ### 请求方式：
     POST
@@ -623,7 +623,7 @@
 
 ## 19. 获取角色列表
 ### 请求URL：
-    http://localhost:5000/manage/role/list
+    http://localhost:5888/manage/role/list
 
 ### 请求方式：
     GET
@@ -686,7 +686,7 @@
 
 ## 20. 更新角色(给角色设置权限)
 ### 请求URL：
-    http://localhost:5000/manage/role/update
+    http://localhost:5888/manage/role/update
 
 ### 请求方式：
     POST
